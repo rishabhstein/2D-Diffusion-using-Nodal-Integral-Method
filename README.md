@@ -24,9 +24,8 @@ HOW_TO_USE
 FOR_BUILD_&_RUN_USE_FOLLOWING_COMMANDS
 \*******USE_GCC_FOR_COMPILATION*******\
 
-1. cd Diffusion	
-2. gfortran Diffusion.f90 -o Diffu.out -ffree-line-length-none
-3. ./Diffu.out
+1. make
+2. ./Diffu
 
 FOR_PLOTTING_RESULT_USE_"MATLAB"
  
@@ -46,3 +45,6 @@ FOR_PLOTTING_RESULT_USE_"MATLAB"
 
 
 FOLLOW_THE_SAME_PROCEDURE_FOR_(T-averaged_results)
+
+DELETE_Generated_files
+1. make clean
