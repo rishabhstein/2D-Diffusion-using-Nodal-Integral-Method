@@ -24,8 +24,9 @@ HOW_TO_USE
 FOR_BUILD_&_RUN_USE_FOLLOWING_COMMANDS
 \*******USE_GCC_FOR_COMPILATION*******\
 
-1. make
-2. ./Diffu
+1. make         \**(avoid warnings)**\
+2. make run     \**run the build file**\
+
 
 FOR_PLOTTING_RESULT_USE_"MATLAB"
  
